@@ -1,0 +1,69 @@
+@font-face{
+    src:url('../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf');
+    font-family: 'sspro';
+}
+*{
+    padding:0px;
+    margin:0px;
+    font-family:'sspro';
+    box-sizing: border-box;
+}
+a{
+    text-decoration:none;
+}
+
+
+#header{
+    width: 100%;
+    top: 0;
+}
+#header-content{
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    border: 1px solid grey;
+}
+
+#left{
+    float: left;
+    padding-top: 10px;
+}
+#left a{
+    color: green;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+#right{
+    float: right;
+    padding-top: 15px;
+}
+
+#right a{
+    color: black;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#right a:hover{
+    color: green;
+}
+
+@media screen and (max-width: 600px){
+    #left{
+        float:none;
+        padding-top: 10px;
+        text-align: center;
+}
+    #right{
+        float:none;
+        padding-top: 15px;
+        text-align: center;
+        padding-bottom: 10px;
+}
+    
+}
+
+

@@ -1,0 +1,26 @@
+#industry{
+    display: inline-flex;
+    width: 100%;
+    padding-top: 20px;
+}
+
+#industry p{
+   text-align: center;
+    font-weight: bold;
+    color: black;
+}
+#industry img{
+    width: 181px;
+    height: 102px;
+}
+
+@media screen and (max-width: 600px){
+    #industry{
+        overflow-x:scroll;
+        overflow-y: hidden;
+        padding-top: 30px;
+    }
+
+
+    
+}
