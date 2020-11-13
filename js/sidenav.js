@@ -1,12 +1,9 @@
-function openNav() {
-     var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
+function myFunction() {
+     var x = document.getElementById("topnav");
+  if (x.className === "myTopnav") {
     x.className += " responsive";
   } else {
-    x.className = "topnav";
+    x.className = "sidenav";
   }
 }
 
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}

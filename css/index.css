@@ -2,6 +2,9 @@
     display: inline-flex;
     width: 100%;
     padding-top: 20px;
+    margin: 0 auto;
+    border: 1px solid grey;
+    position: relative;
 }
 
 #industry p{
@@ -9,16 +12,20 @@
     font-weight: bold;
     color: black;
 }
-#industry img{
-    width: 181px;
-    height: 102px;
+#industry a{
+    width: 145px;
+}
+
+#cool-pic{
+    background: url(.../assets/images/home-page/cool.jpg);
+    background-size: 100% 50%;
 }
 
 @media screen and (max-width: 600px){
     #industry{
         overflow-x:scroll;
         overflow-y: hidden;
-        padding-top: 30px;
+        padding-top: 50px;
     }
 
 
