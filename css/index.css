@@ -45,12 +45,12 @@
 
 .content{
     width: 48%;
-    height: 400px;
     margin: auto;
     text-align: center;
     background-color: grey;
     color: #fff;
     margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .content img{
@@ -60,9 +60,25 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.content p{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
  
+.content button{
+    width:150px;
+    height: 40px;
+    background-color: grey;
+    border: 3px yellow solid;
+    color: yellow;
+    font-weight: bolder;
+}
 
-
+.content button:hover{
+    background-color: yellow;
+    color: black;
+}
 
 @media screen and (max-width: 600px){
     #industry{
@@ -93,7 +109,7 @@
     }
 
     .content{
-        width: 80%;
+        width: 90%;
     }
 
 
