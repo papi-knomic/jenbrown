@@ -36,20 +36,21 @@
 #container{
     width: 100%;
     display: block;
-    margin: auto;
 }
 
 .content-box{
     display: inline-flex;
-    width: 80%;
-    margin: auto;
+    width: 100%;
 }
 
 .content{
-    width: 90%;
+    width: 48%;
+    height: 400px;
+    margin: auto;
     text-align: center;
     background-color: grey;
     color: #fff;
+    margin-bottom: 10px;
 }
 
 .content img{
@@ -89,6 +90,10 @@
 
     .content-box{
         display: block;
+    }
+
+    .content{
+        width: 80%;
     }
 
 
