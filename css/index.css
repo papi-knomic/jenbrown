@@ -2,7 +2,7 @@
     display: inline-flex;
     width: 100%;
     padding-top: 20px;
-    margin: 0 auto;
+    padding-bottom: 20px;
     border: 1px solid grey;
     position: relative;
 }
@@ -36,11 +36,14 @@
 #container{
     width: 100%;
     display: block;
+    background-color: green;
 }
 
 .content-box{
+    padding-top: 15px;
     display: inline-flex;
     width: 100%;
+    padding-bottom: 15px;
 }
 
 .content{
@@ -51,6 +54,7 @@
     color: #fff;
     margin-bottom: 10px;
     padding-bottom: 10px;
+    border-radius: 3px;
 }
 
 .content img{
@@ -80,6 +84,37 @@
     color: black;
 }
 
+footer{
+    bottom: 0%;
+    position: relative;
+    background-color: gray;
+}
+
+#footer-content{
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+}
+
+#footer-content h2{
+    color: green;
+}
+
+#footer-content button{
+    width:150px;
+    height: 40px;
+    background-color: grey;
+    border: 3px green solid;
+    color: green;
+    font-weight: bolder;
+}
+
+#footer-content button:hover{
+    color: black;
+    background-color: green;
+}
+
 @media screen and (max-width: 600px){
     #industry{
         overflow-x:scroll;
@@ -106,6 +141,8 @@
 
     .content-box{
         display: block;
+        padding-bottom: 5px;
+        padding-top: 15px;
     }
 
     .content{
